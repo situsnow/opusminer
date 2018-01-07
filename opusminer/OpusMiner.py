@@ -1,12 +1,12 @@
-import pandas as pd
-import numpy as np
+import copy
 import sys
 
-import copy
-
-from ItemsetRec import ItemsetRec
+import numpy as np
+import pandas as pd
 from ItemQClass import ItemQClass
-from Associations import Associations, Itemset
+from ItemsetRec import ItemsetRec
+
+from opusminer.Associations import Associations, Itemset
 
 
 class OpusMiner:

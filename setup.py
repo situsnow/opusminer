@@ -22,8 +22,9 @@ setup(
     url='https://github.com/situsnow/opusminer',
     author='Geoff.I.Webb',
     author_email='Geoff.Webb@monash.edu',
-    # packages=find_packages(exclude=['contrib', 'docs', 'tests']),
-    py_modules=['OpusMiner','Associations','ItemQClass','ItemsetRec'],
+    license='GNU',
+    packages=find_packages(exclude=['contrib', 'docs', 'tests']),
+    # py_modules=['OpusMiner','Associations','ItemQClass','ItemsetRec'],
     install_requires=['pandas', 'numpy'],
     python_requires='>=3',
 )
