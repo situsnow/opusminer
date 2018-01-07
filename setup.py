@@ -16,12 +16,14 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='opusminer',
-    version='1.2.4',
+    version='1.2.5',
     description='The Python project that implements the Opus algorithm',
+    long_description=long_description,
     url='https://github.com/situsnow/opusminer',
     author='Geoff.I.Webb',
     author_email='Geoff.Webb@monash.edu',
-    packages=find_packages(exclude=['contrib', 'docs', 'tests']),
+    # packages=find_packages(exclude=['contrib', 'docs', 'tests']),
+    py_modules=['OpusMiner','Associations','ItemQClass','ItemsetRec'],
     install_requires=['pandas', 'numpy'],
     python_requires='>=3',
 )
