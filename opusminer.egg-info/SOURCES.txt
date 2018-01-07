@@ -1,3 +1,8 @@
+Associations.py
+ItemQClass.py
+ItemsetRec.py
+MANIFEST.in
+OpusMiner.py
 README.rst
 setup.cfg
 setup.py

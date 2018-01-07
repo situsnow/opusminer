@@ -1,0 +1,6 @@
+# include all the package source
+
+include OpusMiner.py
+include Associations.py
+include ItemQClass.py
+include ItemsetRec.py
