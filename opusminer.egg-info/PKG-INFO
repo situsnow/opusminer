@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: opusminer
+Version: 1.2.0
+Summary: The Python project that implements the Opus algorithm
+Home-page: https://github.com/situsnow/opusminer
+Author: Geoff.I.Webb
+Author-email: Geoff.Webb@monash.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3

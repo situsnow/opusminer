@@ -15,8 +15,13 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 # Fields marked as "Optional" may be commented out.
 
 setup(
-    name='opusminer_bk',
-    version='1.0',
+    name='opusminer',
+    version='1.2.0',
     description='The Python project that implements the Opus algorithm',
-    url='https://github.com/pypa/sampleproject',
+    url='https://github.com/situsnow/opusminer',
+    author='Geoff.I.Webb',
+    author_email='Geoff.Webb@monash.edu',
+    packages=find_packages(exclude=['contrib', 'docs', 'tests']),
+    install_requires=['pandas', 'numpy'],
+    python_requires='>=3',
 )

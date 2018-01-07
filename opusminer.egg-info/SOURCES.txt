@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+opusminer.egg-info/PKG-INFO
+opusminer.egg-info/SOURCES.txt
+opusminer.egg-info/dependency_links.txt
+opusminer.egg-info/requires.txt
+opusminer.egg-info/top_level.txt
