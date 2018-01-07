@@ -1,5 +1,6 @@
 # include all the package source
 
+include __init__.py
 include OpusMiner.py
 include Associations.py
 include ItemQClass.py

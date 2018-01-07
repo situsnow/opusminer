@@ -4,6 +4,7 @@ ItemsetRec.py
 MANIFEST.in
 OpusMiner.py
 README.rst
+__init__.py
 setup.cfg
 setup.py
 opusminer.egg-info/PKG-INFO
