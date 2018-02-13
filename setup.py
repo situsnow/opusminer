@@ -26,5 +26,5 @@ setup(
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     # py_modules=['OpusMiner','Associations','ItemQClass','ItemsetRec'],
     install_requires=['pandas', 'numpy'],
-    python_requires='>=3',
+    python_requires='>=2',
 )

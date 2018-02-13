@@ -1,12 +1,10 @@
-Associations.py
-ItemQClass.py
-ItemsetRec.py
 MANIFEST.in
-OpusMiner.py
 README.rst
-__init__.py
 setup.cfg
 setup.py
+opusminer/opus_miner.so
+opusminer/OpusMiner.py
+opusminer/__init__.py
 opusminer.egg-info/PKG-INFO
 opusminer.egg-info/SOURCES.txt
 opusminer.egg-info/dependency_links.txt

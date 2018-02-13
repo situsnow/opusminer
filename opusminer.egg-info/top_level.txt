@@ -1,4 +1,1 @@
-Associations
-ItemQClass
-ItemsetRec
-OpusMiner
+opusminer
