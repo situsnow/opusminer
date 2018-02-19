@@ -83,18 +83,6 @@ class OpusMiner:
                                      self.correction_for_multicompare, self.redundancy_tests, self.market_basket,
                                      self.noOfTransactions, self.noOfItems, len(self.attribute_value_size),
                                      self.search_level_size, self.item_names, self.transaction_ids)
-        '''for item in self.search_level_size:
-            print(item)
-        print("\n")
-        print("\n")
-        print("\n")
-        for item in self.item_names:
-            print(item)
-        print("\n")
-        print("\n")
-        for item in self.transaction_ids:
-            print(item)
-            print("\n")'''
 
 
 def load_data(opus_miner_obj, input_data):
