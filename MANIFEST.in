@@ -3,3 +3,4 @@
 # include __init__.py
 # include OpusMiner.py
 # include opus_miner.so
+# include Sample/TestOpusMiner.py

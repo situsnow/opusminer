@@ -1,2 +1,2 @@
 # opusminer
-Python package for opusminer itemset mining software
+Python 2 package for opusminer itemset mining software

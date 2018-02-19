@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 import math
 # import the c++ shared library
 import opus_miner
@@ -193,43 +192,3 @@ def calculate_layer_size():
 
     OpusMiner.search_level_size = map(float, OpusMiner.search_level_size)
 
-
-def main():
-    # data = pd.read_csv("Data/TicTacToe.data.headers.csv", na_filter=False)
-    # data = pd.read_csv("Data/Mushroom.csv", na_filter=False)
-    data = pd.read_csv("Data/Adult.csv", na_filter=False, header=None)
-    # data = pd.DataFrame([line.strip().split(',') for line in open('Data/demo.csv', 'r')])
-    opus = OpusMiner(k=100, search_by_lift=False,
-                     input_data=data, market_basket=False)
-                     # input_file="Market.csv",
-                     # output_file="output.csv")
-                     # market_basket=True)
-
-    # opus.fit()
-
-    associations = opus.fit()
-
-    print("Alpha list: \n")
-
-    for i in range(len(associations.alpha)):
-        print(str(associations.alpha[i]) + "\n")
-
-    if associations.ssi:
-        print("Self sufficient itemsets: \n")
-        for i in range(len(associations.ssi)):
-            [support_count, value, p_value, itemset_str, closure_str] = associations.ssi[i]
-            # the closure list is not available in this sample
-            print(itemset_str + ", rule size: " + str(support_count) +
-                  ", value: " + str(value) + ", p-value: " + str(p_value))
-
-    if associations.nssi:
-        print("Non Self sufficient itemsets: \n")
-        for i in range(len(associations.nssi)):
-            [support_count, value, p_value, itemset_str, closure_str] = associations.nssi[i]
-            print(itemset_str + ", rule size: " + str(support_count) +
-                  ", value: " + str(value) + ", p-value: " + str(p_value))
-
-
-if __name__ == "__main__":
-    # clear_all()
-    main()

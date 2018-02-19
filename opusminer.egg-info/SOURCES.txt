@@ -5,6 +5,13 @@ setup.py
 opusminer/opus_miner.so
 opusminer/OpusMiner.py
 opusminer/__init__.py
+opusminer/Sample/TestOpusMiner.py
+opusminer/Sample/Data/Adult.csv
+opusminer/Sample/Data/Adult_header.csv
+opusminer/Sample/Data/demo.csv
+opusminer/Sample/Data/Mushroom.csv
+opusminer/Sample/Data/TicTacToe.data.csv
+opusminer/Sample/Data/TicTacToe.data.headers.csv
 opusminer.egg-info/PKG-INFO
 opusminer.egg-info/SOURCES.txt
 opusminer.egg-info/dependency_links.txt
