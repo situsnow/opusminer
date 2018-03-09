@@ -1,13 +1,16 @@
 import numpy as np
 import math
 import sys
+import os
+sys.path.insert(0, os.path.dirname(os.getcwd()))
 # import the c++ shared library
 if sys.version_info > (3, 0):
     # import the library compiled by boost-python3
-    from opusminer.cpplib.boostpython2 import opus_miner
+    from opusminer.cpplib.boostpython3 import opus_miner
 else:
     # import the library compiled by boost-python
-    from opusminer.cpplib.boostpython3 import opus_miner
+    from opusminer.cpplib.boostpython2 import opus_miner
+
 
 
 class OpusMiner:

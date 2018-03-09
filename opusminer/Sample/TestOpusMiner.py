@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.getcwd())))
 from opusminer.OpusMiner import *
 import pandas as pd
 
