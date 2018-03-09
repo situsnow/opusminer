@@ -10,4 +10,7 @@ brew install llvm --universal)<br />
 
 Refer TestOpusMiner.py in Sample folder as an example to use this program.
 
+In case you might have boost-python compilation error (especially when you are using python 3 on Mac),
+please kindly refer to the fix of issue 10910 in https://bugs.python.org/issue10910
+
 
