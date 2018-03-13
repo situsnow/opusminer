@@ -2,7 +2,7 @@
 Python package for opusminer itemset mining software.
 
 Please install boost, boost-python(for python 2) or boost-python3(for python 3) and llvm prior to run this program/package.<br />
-(console commands are:
+(console commands are:<br />
 brew install boost<br />
 brew install boost-python<br />
 brew install boost-python3<br />
