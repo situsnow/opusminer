@@ -15,11 +15,11 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 # Fields marked as "Optional" may be commented out.
 
 setup(
-    name='opusminer-py2',
-    version='1.2.6',
+    name='opusminer',
+    version='1.2.0',
     description='The Python project that implements the Opus algorithm',
     long_description=long_description,
-    url='https://github.com/situsnow/opusminer-py2',
+    url='https://github.com/situsnow/opusminer',
     author='Geoff.I.Webb',
     author_email='Geoff.Webb@monash.edu',
     license='GNU',

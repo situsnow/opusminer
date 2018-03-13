@@ -1,5 +1,5 @@
 # opusminer
-Python 2 package for opusminer itemset mining software.
+Python package for opusminer itemset mining software.
 
 Please install boost, boost-python(for python 2) or boost-python3(for python 3) and llvm prior to run this program/package.<br />
 (e.g. on Mac, please use python 2 as your default python version and use below command to install:<br />
