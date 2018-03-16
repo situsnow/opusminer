@@ -1,7 +1,3 @@
 # include all the package source
 
-# include __init__.py
-# include OpusMiner.py
-# include cpplib/boostpython2/opus_miner.so
-# include cpplib/boostpython3/opus_miner.so
-# include Sample/TestOpusMiner.py
+# include opusminer/Sample/Data/demo.csv
