@@ -24,7 +24,6 @@ setup(
     author_email='Geoff.Webb@monash.edu',
     license='GNU',
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
-    # py_modules=['OpusMiner','Associations','ItemQClass','ItemsetRec'],
     install_requires=['pandas', 'numpy'],
     python_requires='>=2',
 )
