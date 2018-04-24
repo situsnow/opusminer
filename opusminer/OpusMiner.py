@@ -12,7 +12,6 @@ else:
     from opusminer.cpplib.boostpython2 import opus_miner
 
 
-
 class OpusMiner:
     """Open source implementation of the OPUS Miner algorithm which applies OPUS search for
     Filtered Top-k Association Discovery of Self-Sufficient Itemsets

@@ -16,7 +16,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='opusminer',
-    version='1.2.7',
+    version='1.2.0',
     description='The Python project that implements the Opus algorithm',
     long_description=long_description,
     url='https://github.com/situsnow/opusminer',
